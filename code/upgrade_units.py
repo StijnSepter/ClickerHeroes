@@ -25,5 +25,6 @@ class UpgradeUnits:
         pyautogui.click(self.x_scroll_bottom, self.y_scroll_bottom)
         self.back_to_attacking()
 
+
     def back_to_attacking(self):
         pyautogui.moveTo(self.attack_x, self.attack_y)
